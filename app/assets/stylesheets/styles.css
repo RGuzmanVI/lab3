@@ -1,0 +1,48 @@
+body {
+    background-image: url('images/transformers wallpaper1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    place-items: center;
+}
+
+.personal-summary {
+    font-family: "Times New Roman", Times, serif;  
+    font-size: 1.4em;  
+    color: #403180;  
+}
+
+.progress {
+    color: #da9b3d;  
+    font-weight: bold;
+}
+
+.dark-theme {
+    color: #000000;  
+    background-color: #b0d252; 
+    display: inline;
+    padding: 2px 5px; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #b0d252; 
+}
+
+
+.bad {
+    color: #da3d3d;  
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+    margin: 10px 0;
+}
+
+.section-box {
+    background-color: #b0d252;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
