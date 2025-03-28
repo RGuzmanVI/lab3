@@ -1,7 +1,4 @@
 <h1 class="text-center">Welcome to Our Website This is a title woah! </h1>
 <p class="text-center text-muted">And this is a subtitle!! Who would have thought.</p>
 
-<div class="text-center mt-4">
-    <h2>Current Time</h2>
-    <h3 id="clock" class="fw-bold"></h3>
-</div>
+<h3>Current Time: <%= Time.current.strftime("%H:%M:%S") %></h3>
